@@ -23,7 +23,7 @@ function Software(props) {
                                 <p>Sparklex Technologies is a Software development is the process of designing, coding, testing, and maintaining computer programs or software applications. It involves a systematic approach to creating software solutions that address specific business needs or user requirements. Software development encompasses a wide range of activities and disciplines, and it plays a crucial role in modern technology-driven industries.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12 r-img">
-                                <img src={software1} alt="" style={{width: '60%'}} />
+                                <img className='mobile-width' src={software1} alt="" style={{width: '60%'}} />
                             </div>
                         </div>
                     </div>

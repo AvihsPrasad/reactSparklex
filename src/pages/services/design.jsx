@@ -26,7 +26,7 @@ function Design(props) {
                                 <p>Sparklex Technologies is a UI (User Interface) design and UX (User Experience) design are two essential components of creating successful and user-friendly digital products, such as websites, applications, and software. UI design focuses on the visual elements and layout of the user interface, while UX design is concerned with the overall experience and usability of the product.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12 r-img">
-                                <img src={design1} alt="" style={{width: '75%'}} />
+                                <img className='mobile-width' src={design1} alt="" style={{width: '75%'}} />
                             </div>
                         </div>
                     </div>

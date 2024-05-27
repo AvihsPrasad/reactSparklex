@@ -154,8 +154,8 @@ function About(props) {
                         <div className="profile">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div className="row g-4">
+                                    <div class="carousel-item h-100 active">
+                                        <div className="row h-100 g-4">
                                             <div class="col-lg-3 px-4">
                                                 <div className="card">
                                                     <div className="prof-img px-4">
@@ -203,8 +203,8 @@ function About(props) {
                                         </div>
                                         
                                     </div>
-                                    <div class="carousel-item">
-                                        <div className="row g-4">
+                                    <div class="carousel-item h-100">
+                                        <div className="row h-100 g-4">
                                             <div class="col-lg-3 px-4">
                                                 <div className="card">
                                                     <div className="prof-img px-4">
@@ -253,7 +253,7 @@ function About(props) {
                                         
                                     </div>
                                     <div class="carousel-item">
-                                        <div className="row g-4">
+                                        <div className="row h-100 g-4">
                                             <div class="col-lg-3 px-4">
                                                 <div className="card">
                                                     <div className="prof-img px-4">
@@ -271,13 +271,13 @@ function About(props) {
                                         
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
                                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                                     <i class="fa-solid fa-arrow-left"></i>
                                     <span class="visually-hidden">Next</span>
+                                </button>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <span class="visually-hidden">Previous</span>
                                 </button>
                             </div>
 

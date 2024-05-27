@@ -23,7 +23,7 @@ function Web(props) {
                                 <p>Sparklex Technologies is a Web development refers to the process of creating websites and web applications for the Internet or an intranet. It involves a combination of designing, coding, testing, and maintaining web-based projects to provide users with an engaging and functional online experience. Web development encompasses both front-end and back-end aspects of building websites.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12 r-img">
-                                <img src={web1} alt="" style={{width: '70%'}} />
+                                <img className='mobile-width' src={web1} alt="" style={{width: '70%'}} />
                             </div>
                         </div>
                     </div>

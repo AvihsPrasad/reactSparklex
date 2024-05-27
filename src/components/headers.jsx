@@ -3,15 +3,16 @@ import BrandLogo from '../assets/Images/BrandLogo.png'
 function Header() {
     return (
         <>
-        <header className='sticky-top' style={{backgroundColor: '#e3f2fd','z-index': '999999'}}>
+        <header className='sticky-top' style={{backgroundColor: '#e3f2fd','z-index': '9999999'}}>
             <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary">
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href={`/`}>
                     <img src={BrandLogo} alt="Logo" className="d-inline-block align-text-top logo" />
                         {/* SPARKLEX */}
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        {/* <span className="navbar-toggler-icon"></span> */}
+                        <i class="fa fa-bars" aria-hidden="true" style={{color: '#02163b'}}></i>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul className="navbar-nav">

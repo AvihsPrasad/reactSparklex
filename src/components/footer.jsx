@@ -1,24 +1,24 @@
 import WhiteLogo from '../assets/Images/logo-footer.png' 
 
 var infoData = [
-    {title: 'About Us', link:''},
-    {title: 'Our Team', link:''},
-    {title: 'Careers', link:''},
+    {title: 'About Us', link:'/about'},
+    {title: 'Our Team', link:'/about'},
+    {title: 'Careers', link:'/career'},
     {title: 'Privacy Policy', link:''},
     {title: 'Terms & Conditions', link:''},
-    {title: 'Contact Us', link:''}
+    {title: 'Contact Us', link:'/contact'}
 ]
 var serviceData = [
-    {title: 'IT Training & Placement',link:''},
-    {title: 'IT Strategy & Consulting',link:''},
-    {title: 'Software Development',link:''},
-    {title: 'Mobile App Development',link:''},
-    {title: 'Infra Management',link:''},
-    {title: 'Business Analytics',link:''},
-    {title: 'Enterprise Resourcing',link:''},
-    {title: 'Web Development',link:''},
-    {title: 'UI / UX Design & Dev',link:''},
-    {title: 'CMS Development',link:''},
+    {title: 'IT Training & Placement',link:'/It-Training'},
+    {title: 'IT Strategy & Consulting',link:'/consulting'},
+    {title: 'Software Development',link:'/Software-development'},
+    {title: 'Mobile App Development',link:'/Mobile-app-development'},
+    {title: 'Infra Management',link:'/Infrastructure-management-service'},
+    {title: 'Business Analytics',link:'/business'},
+    {title: 'Enterprise Resourcing',link:'/Enterprise-resourcing'},
+    {title: 'Web Development',link:'/webDevelopment'},
+    {title: 'UI / UX Design & Dev',link:'/UI-UX-design'},
+    {title: 'CMS Development',link:'/Cms'},
     {title: 'ECommerce Solutions',link:''}
 ]
 function Footer() {
@@ -59,22 +59,22 @@ function Footer() {
                 <h5>Follow Us</h5>
                 <p>Follow us on Facebook for latest technical happenings and our latest releases.</p>
                 <div className="row m-0 social-media">
-                    <div className="col-lg-3 ps-0">
+                    <div className="col-sm-3 col-md-3 col-lg-3 ps-0">
                         <a href='https://www.instagram.com/sparklextechnologies/' class="btn btn-outline-primary">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </div>
-                    <div className="col-lg-3 ps-0">
+                    <div className="col-sm-3 col-md-3 col-lg-3 ps-0">
                         <a href='https://twitter.com/SparklexTech' class="btn btn-outline-primary">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
                     </div>
-                    <div className="col-lg-3 ps-0">
+                    <div className="col-sm-3 col-md-3 col-lg-3 ps-0">
                         <a href='https://www.facebook.com/SparklexTechnologiesCanada' class="btn btn-outline-primary">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
                     </div>
-                    <div className="col-lg-3 ps-0">
+                    <div className="col-sm-3 col-md-3 col-lg-3 ps-0">
                         <a href='https://www.linkedin.com/company/sparklex-technologies-canada/' class="btn btn-outline-primary">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>

@@ -21,7 +21,7 @@ function Career() {
   // },[])
   return (
     // <div>career page consists of Internship aswell Training</div>
-    <>
+    <div className='career-page'>
         <div className="block1 lightbg"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200" data-aos-duration="1000">
             <div className="container">
                 <svg viewBox="0 0 1320 300">
@@ -45,22 +45,22 @@ function Career() {
               </ul>
             </div>
             <div className="header">
-                <div className="status-col">
+                <div className="mobile-width status-col">
                   <label> Title </label>
                 </div>
-                <div className="progress-col">
+                <div className="mobile-width progress-col">
                   <label> Type </label>
                 </div>                
-                <div className="dates-col">
+                <div className="mobile-width dates-col">
                   <label> Experience </label>
                 </div>
-                <div className="priority-col">
+                <div className="mobile-width priority-col">
                   <label> Posted on </label>
                 </div>                
-                <div className="icon-col">
+                <div className="mobile-width icon-col">
                   <label>Skills</label>
                 </div>                
-                <div className="applt-col"  style={{'max-width': '80px'}}>
+                <div className="mobile-width applt-col"  style={{'max-width': '80px'}}>
                   <label>Apply</label>
                 </div>
 
@@ -68,24 +68,24 @@ function Career() {
               <ul className="task-items">
                 {joblist.map((val,index) => (
                   <li className={ (val.type == jobType? 'show':jobType == 'All'? 'show': 'hide' ) + " item " + (val.type == 'Permanent' ? 'type1':'type4')}>
-                    <div className="task">
+                    <div className="mobile-width task">
                       <div className="icon">{index}</div>
                       <div className="name">{val.title} </div>
                     </div>
-                    <div className="status">
+                    <div className="mobile-width status">
                       <div className={"icon " + (val.type == 'Permanent' ? '':'off')}> </div>
                       <div className="text"> {val.type} </div>
                     </div>
-                    <div className="dates">
+                    <div className="mobile-width dates">
                       <div className="bar"> {val.type == 'Permanent' ? val.exp + " year's":'Not Required'}</div>
                     </div>
-                    <div className="priority">
+                    <div className="mobile-width priority">
                       <div className="bar">{val.date} </div>
                     </div>
-                    <div className="user">
+                    <div className="mobile-width user">
                       {val.skills}
                     </div>
-                    <div className="" style={{'max-width': '80px'}}>
+                    <div className="mobile-width" style={{'max-width': '80px', 'text-align': 'center'}}>
                       <button type="button" class="btn btn-outline-danger">
                         <i class="fa-brands fa-telegram"></i>
                       </button>
@@ -126,7 +126,7 @@ function Career() {
             <hr className="m-0" />
           </div>
         </div>
-    </>
+    </div>
   )
 }
 

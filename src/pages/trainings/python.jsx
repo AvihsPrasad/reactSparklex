@@ -22,7 +22,7 @@ function Python(props) {
                                 <p>Global Knowledge offers some courses that help Python developers increase their abilities by combining in-depth theoretical knowledge with excellent practical skills. You may master difficult ideas, develop simple to advanced scripts, and create modules and packages with the support of skilled specialists.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12" style={{'text-align': 'right'}}>
-                                <img src={pythonLogo} alt="" />
+                                <img className='mobile-width' src={pythonLogo} alt="" />
                             </div>
                         </div>
                     </div>

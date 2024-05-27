@@ -6,7 +6,7 @@ function Digital(props) {
 
     return(
         <>
-            <div className="web-page">
+            <div className="digital-page">
                 <div className="block1 lightbg"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200" data-aos-duration="1000">
                     <div className="container">
                         <Banner serviceName='Digital Marketing'></Banner>
@@ -21,7 +21,7 @@ function Digital(props) {
                                 <p>By a team of specialists, we are one of the best Best Digital Marketing Training providers. Digital marketing has been demonstrated to be more successful and efficient than traditional marketing. In some form or another, everyone nowadays has access to a digital system. As a result, any marketing that uses a smart device has a greater chance of reaching the desired audience at the right time and in the right place than traditional forms of advertising that have been in use for many decades.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12" style={{'text-align': 'right'}}>
-                                <img src={digitalLogo} alt="" style={{width: '70%'}} />
+                                <img className='mobile-width' src={digitalLogo} alt="" style={{width: '70%'}} />
                             </div>
                         </div>
                     </div>

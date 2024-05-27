@@ -21,7 +21,7 @@ function FullStack(props) {
                                 <p>This course also makes use of the most up-to-date React Hooks and Redux, which is a lot of fun. Your code will be considerably more readable and simple. By the end of this course, you'll have a better understanding of how these various technologies interact with one another. We'll begin by looking at all of the individual building blocks, with the goal of combining them all into one fantastic application by the end of the course.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12" style={{'text-align': 'right'}}>
-                                <img src={fullLogo} alt="" style={{width: '70%'}} />
+                                <img className='mobile-width' src={fullLogo} alt="" style={{width: '70%'}} />
                             </div>
                         </div>
                     </div>

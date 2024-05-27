@@ -22,7 +22,7 @@ function Infra(props) {
                                 <p>Sparklex Technologies is a Infrastructure Management Services (IMS) refer to the comprehensive management and maintenance of an organization's IT infrastructure, including hardware, software, networks, servers, data centers, and other technology resources. The goal of IMS is to ensure that the IT infrastructure operates efficiently, securely, and reliably to support the organization's business operations and objectives. IMS is crucial for maintaining a stable and responsive technology environment.</p>
                             </div>
                             <div className="col-lg-6 col-sm-12 r-img">
-                                <img src={infra} alt="" style={{width: '70%'}} />
+                                <img className='mobile-width' src={infra} alt="" style={{width: '70%'}} />
                             </div>
                         </div>
                     </div>

@@ -348,7 +348,7 @@ function Home() {
                   data-aos-duration="1000"
                 >
                   {numbers.map((i) => (
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-6">
                       <motion.button
                         className="motion-card"
                         whileHover={{ scale: 1.1 }}

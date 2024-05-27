@@ -1126,33 +1126,6 @@ transition: all 0.3s ease;
   
 }
 
-
-
-
-/* FOR RESPONSIVE ONLY  */
-@media only screen and (max-width:480px) {
-  .event-calendar {
-    width:100%;
-    margin:0;
-  }
-  .event-calendar .heading-title h2 {
-    font-size:1em;
-  }
-  
-  .event-calendar .title-event h3 {
-    font-size:.9em;
-  }
-  
-  .event-calendar .event-left-content .event-date,
-  .event-calendar .event-left-content .event-location {
-    font-size:.8em;
-  }
-  
-  
-}
-
-/* _____________________________ */
-
 /* list css1 */
 .header {
   display: flex;
@@ -1167,6 +1140,7 @@ transition: all 0.3s ease;
       -ms-user-select: none;
           user-select: none;
   text-align: center;
+  width: 100%;
 }
 .header > div{
   flex-grow: 1;
@@ -1439,3 +1413,57 @@ width: 100px;
 .l-img{
   text-align: left;
 }
+
+/* FOR RESPONSIVE ONLY  */
+@media only screen and (max-width:920px) {
+  .event-calendar {
+    width:100%;
+    margin:0;
+  }
+  .event-calendar .heading-title h2 {
+    font-size:1em;
+  }
+  
+  .event-calendar .title-event h3 {
+    font-size:.9em;
+  }
+  
+  .event-calendar .event-left-content .event-date,
+  .event-calendar .event-left-content .event-location {
+    font-size:.8em;
+  }
+  .container{
+    padding: 20px !important;
+  }
+  .navbar .container{padding: 0 20px !important;}
+  .Home-page .block1 .left-bar{padding: 0px !important;}
+  .Home-page .block4 .left-section{padding: 0px !important;}
+  .icon-float:nth-child(10) {
+    right: 34px;
+  }
+  .scrolltop{
+    left: calc(100% - 60px) !important;
+  }
+  .Footer-page .container > .row > div{
+    padding-left: 10px !important ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #808dad;
+  }
+  .Footer-page .container > .row div:last-child{border-bottom: none;}
+  .social-media > div {display: inline-block !important; width: calc(100% / 4);text-align: center;}
+  .whitLogo{ text-align: center;}
+  .Footer-page .container .mb-5{ margin-bottom: 20px !important};
+  /* .career-page .task-items .item .status,.career-page .task-items .item .user{display: none !important;} */
+  .career-page .task-items .item > div, .header > div{width: calc(100% / 4);}
+  .career-page .progress-col, .icon-col, .status, .priority, .user{display: none !important;}
+  .mobile-width{width: 100% !important;}
+  .petal .title{font-size: 14px;}
+  .petal i{font-size: 45px; padding-bottom: 20px; margin-bottom: 20px;}
+  .petal{min-height: auto;}
+  .bar{text-align: right;}
+  ul.task-items li.item .task .name{margin-top: -40px;}
+  ul.task-items li.item .task .icon{padding: 10px;width: auto;height: auto;}
+}
+
+/* _____________________________ */

@@ -21,7 +21,7 @@ function Splunk(props) {
                                 <p>Splunk Certifications are IT industry standards for validating and demonstrating proficiency with Splunk's universal machine data platform. This helps you attain your career growth with a high salary package. Splunk is thus extremely beneficial to your IT career, and you can learn it in a variety of ways. If you want to know more details about our Splunk training program speak with one of our experts today!</p>
                             </div>
                             <div className="col-lg-6 col-sm-12" style={{'text-align': 'right'}}>
-                                <img src={splunkLogo} alt="" />
+                                <img className='mobile-width' src={splunkLogo} alt="" />
                             </div>
                         </div>
                     </div>
